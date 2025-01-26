@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  background-image: url("./resources/qa-bg.jpg"); /* Adjust the path as needed */
+  background-size: cover;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    max-height: 100%;
+    align-items: center;
+    padding: 5% 20% 15% 20%;
+}
+.container input {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color:#030616;
+  border-color: #263FA9;
+  color: white;
+}
+
+.container button, .actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #263FA9;
+  color: white;
+  cursor: pointer;
+}
+
+.qrcode{
+    width: 145px;
+    height: 145px;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.actions button{
+    margin: 20px;
+}
+
+.container button:hover {
+  background-color: #0056b3;
+}
+
+#qrcode {
+  margin-top: 20px;
+}
+
+.qrcode-container {
+    display: none;
+  }
+  
+  .actions {
+    display: none;
+  }

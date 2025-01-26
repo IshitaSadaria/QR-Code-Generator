@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>QR code generator | devChallenges.io</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>QRCode</h1>
+        <input type="text" id="url-input" placeholder="Enter URL" />
+        <button id="generate-btn">Generate QR Code</button>
+        <div id="qrcode" class="qrcode qrcode-container"></div>
+        <div class="actions">
+          <button id="download-btn">Download QR Code</button>
+          <button id="copy-btn">Copy QR Code</button>
+      </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
